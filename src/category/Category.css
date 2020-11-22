@@ -1,0 +1,12 @@
+.category{
+  
+    background-color: white;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.category__row{
+
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  box-shadow: -3px -1px 10px 0px rgba(105, 103, 103, 0.75);
+}
+
+.header__logo {
+  object-fit: contain;
+  width: 100px;
+}
+
+.header__searchBar {
+  flex: 1;
+  height: 29px;
+  border: 1px solid #C7C7CD;
+  border-radius: 4px;
+
+}
+
+.header__searchButton {
+  border: none;
+  border-radius: 3px;
+  padding: 0.6rem;
+  font-weight: 800;
+  margin-left: 10px;
+  box-shadow: -3px -1px 10px 0px rgba(105, 103, 103, 0.75);
+  color: white;
+  background-color: #f68b1f;
+}
+
+.header__nav {
+  display: flex;
+  margin: 0 10px;
+}
+
+.header__navOption {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}

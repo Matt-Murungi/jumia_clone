@@ -1,0 +1,14 @@
+.category__item{
+    display: flex;
+    flex-direction: column;
+    
+ 
+
+}
+
+.category__itemIcon{
+    width: max-content;
+    padding: 1rem;
+    border-radius: 100%;
+    background-color: #F2F2F2;
+}
