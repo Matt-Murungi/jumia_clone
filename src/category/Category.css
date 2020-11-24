@@ -1,12 +1,13 @@
 .category{
   
     background-color: white;
-    margin: 0 1rem;
-    padding: 1rem;
+    margin: 0 3rem;
+    padding: 0.4rem;
 }
 
 .category__row{
 
     display: flex;
     justify-content: space-evenly;
+    padding: 0.5rem;
 }

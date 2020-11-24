@@ -12,3 +12,4 @@ ReactDOM.render(
 );
 
 reportWebVitals();
+require('react-web-vector-icons/fonts');

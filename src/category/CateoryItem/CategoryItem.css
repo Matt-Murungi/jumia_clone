@@ -1,6 +1,8 @@
 .category__item{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
  
 
@@ -8,7 +10,13 @@
 
 .category__itemIcon{
     width: max-content;
-    padding: 1rem;
+    font-size: 4rem;
+    padding: 1.2rem;
     border-radius: 100%;
     background-color: #F2F2F2;
+}
+
+.category__itemLabel{
+    margin-top: 0.5rem;
+    font-size: smaller;
 }

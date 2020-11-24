@@ -8,34 +8,34 @@ function Category() {
     <div className="category">
       <div className="category__row">
         <CategoryItem
-          label={"All Deal"}
-          icon={"local_offer"}
-          color={"#FE021F"}
+          label={"All Deals"}
+          icon={"loyalty"}
+          color={"red"}
         />
         <CategoryItem
-          label={"All Deal"}
-          icon={"local_offer"}
-          color={"#FE021F"}
+          label={"Flash Sales"}
+          icon={"loyalty"}
+          color={"#C3BFF7"}
         />
         <CategoryItem
-          label={"All Deal"}
-          icon={"local_offer"}
-          color={"#FE021F"}
+          label={"Express"}
+          icon={"directions_bus"}
+          color={"#FAC11C"}
         />
         <CategoryItem
-          label={"All Deal"}
-          icon={"local_offer"}
-          color={"#FE021F"}
+          label={"Vouchers"}
+          icon={"confirmation_number"}
+          color={"#FF4E00"}
         />
         <CategoryItem
-          label={"All Deal"}
-          icon={"local_offer"}
-          color={"#FE021F"}
+          label={"10k Store"}
+          icon={"store"}
+          color={"#FA966A"}
         />
         <CategoryItem
-          label={"All Deal"}
-          icon={"local_offer"}
-          color={"#FE021F"}
+          label={"Jumia Global Deals"}
+          icon={"brightness_7"}
+          color={"#3F48CC"}
         />
       </div>
     </div>

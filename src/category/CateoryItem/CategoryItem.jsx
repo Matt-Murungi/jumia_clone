@@ -2,16 +2,19 @@ import React from "react";
 
 import "./CategoryItem.css";
 
+import Icon from 'react-web-vector-icons';
+
 function CategoryItem({ label, icon, color }) {
   const styles = {
-    color: { color },
+    color: color,
+
   };
   return (
     <div className="category__item">
-      <i style={styles} class="material-icons category__itemIcon">
-        {icon}
-      </i>
-      <p className="category__itemLabel">{label} </p>
+   <i className="material-icons category__itemIcon" style={styles}>
+     {icon}
+   </i>
+      <p className="category__itemLabel">{label}</p>
     </div>
   );
 }

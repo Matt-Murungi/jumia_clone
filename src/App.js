@@ -1,7 +1,8 @@
 import './App.css';
-import Category from './category/Category';
+import Category from './Category/Category';
 import Header from './Header/Header';
 import Home from './Home/Home';
+import Product from './Product/Product';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 <Header/>
 <Home />
 <Category />
+<Product/>
     </div>
   );
 }
