@@ -1,4 +1,5 @@
 import './App.css';
+import BlackFridayProduct from './BlackFridayProductItem/BlackFridayProduct';
 import Category from './Category/Category';
 import Header from './Header/Header';
 import Home from './Home/Home';
@@ -10,6 +11,7 @@ function App() {
 <Header/>
 <Home />
 <Category />
+<BlackFridayProduct />
 <Product/>
     </div>
   );

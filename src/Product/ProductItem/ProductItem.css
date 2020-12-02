@@ -1,0 +1,9 @@
+.productSection{
+    margin: 0 1rem;
+}
+
+.productSection__title{
+    display: flex;
+    justify-content: space-between;
+   
+}
