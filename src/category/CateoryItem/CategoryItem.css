@@ -3,11 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    padding: 1rem;
  
 
 }
 
+.category__item:hover{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+}
 .category__itemIcon{
     width: max-content;
     font-size: 4rem;

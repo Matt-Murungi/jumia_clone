@@ -1,19 +1,28 @@
 .product{
-    /* display: flex; */
+    margin: 1rem 3rem;
+    background-color:white;
+    height: fit-content;
 }
 
 .product__heading{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1rem 3rem;
+    
     padding: 1rem;
     color: white;
     background-color: #000000;
+    font-weight: 700;
     
 }
 
 .product__headingTitleMore{
 display: flex;
 align-items: center;
+
+}
+
+.product__row{
+    display: flex;
+   justify-content: space-evenly;
 }
