@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Product.css";
-import ProductItem from "./ProductItem/ProductItem";
+import BlackFridayProductItems from "./BlackFridayProductItem/BlackFridayProductItem";
 
 function Product() {
   return (
@@ -17,11 +17,14 @@ function Product() {
 
     <div className="product__row">
 
-    <ProductItem />
-    <ProductItem />
-    <ProductItem />
-    <ProductItem />
+    <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
+    <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
+    <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
+    <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
+
     </div>
+
+    
     </div>
   );
 }

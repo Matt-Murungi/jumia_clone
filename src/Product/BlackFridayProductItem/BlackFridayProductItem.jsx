@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './ProductItem.css'
+import './BlackFridayProductItem.css'
 
-function ProductItem() {
+function BlackFridayProductItems({productName, productPrice}) {
     return (
         <div className="product__item">
    
@@ -12,10 +12,13 @@ function ProductItem() {
           alt=""
         />
   
-      <p className="product__itemName">CocaCola Bundle of Joy</p>
-      <p className="product__itemPrice">UGX 12,000</p>
+    <p className="product__itemName">{productName}</p>
+      <p className="product__itemPrice">{productPrice}</p>
     </div>
     )
 }
 
-export default ProductItem
+export default BlackFridayProductItems
+
+
+
