@@ -1,10 +1,10 @@
-.product{
+.blackFridayProduct{
     margin: 1rem 3rem;
     background-color:white;
     height: fit-content;
 }
 
-.product__heading{
+.blackFridayProduct__heading{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,13 +16,13 @@
     
 }
 
-.product__headingTitleMore{
+.blackFridayProduct__headingTitleMore{
 display: flex;
 align-items: center;
 
 }
 
-.product__row{
+.blackFridayProduct__row{
     display: flex;
    justify-content: space-evenly;
 }

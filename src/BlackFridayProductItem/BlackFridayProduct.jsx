@@ -7,17 +7,17 @@ import BlackFridayProductItems from './BlackFridayProductItems/BlackFridayProduc
 
 function BlackFridayProduct() {
     return (
-        <div className="product">
-        <div className="product__heading">
-          <p className="product__headingTitle">
+        <div className="blackFridayProduct">
+        <div className="blackFridayProduct__heading">
+          <p className="blackFridayProduct__headingTitle">
             Black Friday Deals | Up to 80% Off
           </p>
-          <div className="product__headingTitleMore">
+          <div className="blackFridayProduct__headingTitleMore">
             See All <span className="material-icons">keyboard_arrow_right</span>{" "}
           </div>
         </div>
   
-      <div className="product__row">
+      <div className="blackFridayProduct__row">
       <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
       <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
       <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>

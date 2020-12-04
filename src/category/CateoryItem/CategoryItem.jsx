@@ -2,7 +2,6 @@ import React from "react";
 
 import "./CategoryItem.css";
 
-import Icon from 'react-web-vector-icons';
 
 function CategoryItem({ label, icon, color }) {
   const styles = {

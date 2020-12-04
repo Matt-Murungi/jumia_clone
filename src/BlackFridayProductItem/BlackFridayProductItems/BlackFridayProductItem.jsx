@@ -7,13 +7,13 @@ function BlackFridayProductItems({productName, productPrice}) {
         <div className="product__item">
    
         <img
-        className="product__itemImage"
+        className="blackFridayProduct__itemImage"
           src="https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/22/86105/1.jpg?7319"
           alt=""
         />
   
-    <p className="product__itemName">{productName}</p>
-      <p className="product__itemPrice">{productPrice}</p>
+    <p className="blackFridayProduct__itemName">{productName}</p>
+      <p className="blackFridayProduct__itemPrice">{productPrice}</p>
     </div>
     )
 }

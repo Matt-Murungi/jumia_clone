@@ -1,28 +1,28 @@
 
-.product__item{
+.blackFridayProduct__item{
     padding: 1rem;
     margin: 1rem;
   
     
 }
 
-.product__item:hover{
+.blackFridayProduct__item:hover{
     padding: 1rem;
   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
 border-radius: 10px;
     
 }
-.product__itemImage{
+.blackFridayProduct__itemImage{
 
 height: 30vh;
 background-color: red;
 
 }
 
-.product__itemName{
+.blackFridayProduct__itemName{
 margin-bottom: 0.5rem;
 }
 
-.product__itemPrice{
+.blackFridayProduct__itemPrice{
     font-weight: 500;
 }
