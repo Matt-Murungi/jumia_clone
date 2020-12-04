@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Product.css";
+import ProductItem from "./ProductItem/ProductItem";
 
 function Product() {
   return (
@@ -13,6 +14,8 @@ function Product() {
         </div>
       </div>
         <p className="product_itemNumber">4019 Products found</p>
+
+        <ProductItem />
     </div>
   );
 }

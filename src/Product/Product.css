@@ -3,6 +3,7 @@
   height: fit-content;
 
   background-color: white;
+  margin-bottom: 1rem;
 }
 .product_heading {
   display: flex;
