@@ -1,8 +1,21 @@
 import React, { useState } from "react";
+import { useStateValue } from "../../stateManagement/StateProvider";
 
 import "./ProductItem.css";
 
-function ProductItem() {
+function ProductItem({ productName, productPrice, productImage }) {
+  const [{}, dispatch] = useStateValue();
+
+  const addToBasket = () => {
+    dispatch({
+      type: "ADD_TO_BASKET",
+      item: {
+        productName: productName,
+        productPrice: productPrice,
+        productImage: productImage,
+      },
+    });
+  };
   const [isShown, setIsShown] = useState(false);
   return (
     <div
@@ -10,26 +23,19 @@ function ProductItem() {
       onMouseEnter={() => setIsShown(true)}
       onMouseLeave={() => setIsShown(false)}
     >
-      <img
-        src="https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/26/18097/1.jpg?4397"
-        alt=""
-        className="productItem__image"
-      />
+      <img src={productImage} alt="" className="productItem__image" />
       <div className="productItem__detail">
-
-      <p className="productItem__name">
-        Hisense Single Door Refrigerator 229L -Silver
-      </p>
-      <p className="productItem__price">UGX 880,000</p>
-      {/* TODO: create rating  */}
+        <p className="productItem__name">{productName}</p>
+        <p className="productItem__price">UGX {productPrice}</p>
+        {/* TODO: create rating  */}
       </div>
 
       {isShown ? (
-        <button className="productItem__button">ADD TO CART</button>
-      ) : null
-      }
+        <button onClick={addToBasket} className="productItem__button">
+          ADD TO CART
+        </button>
+      ) : null}
     </div>
-   
   );
 }
 

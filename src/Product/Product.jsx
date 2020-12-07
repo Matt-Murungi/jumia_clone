@@ -13,9 +13,17 @@ function Product() {
           {/* TODO: Create DropDown */}
         </div>
       </div>
-        <p className="product_itemNumber">4019 Products found</p>
+      <p className="product_itemNumber">4019 Products found</p>
 
-        <ProductItem />
+      <div className="product__row">
+        <ProductItem
+          productName={"Hisense Fridge"}
+          productPrice={800000}
+          productImage={
+            "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/26/18097/1.jpg?4397"
+          }
+        />
+      </div>
     </div>
   );
 }

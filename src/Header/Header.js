@@ -4,8 +4,10 @@ import Person from "@material-ui/icons/PersonOutline";
 import Help from "@material-ui/icons/HelpOutline"
 import ShoppingCart from "@material-ui/icons/ShoppingCartOutlined"
 import "./Header.css";
+import { useStateValue } from "../stateManagement/StateProvider";
 
 function Header() {
+  const [{cart}] = useStateValue();
   return (
     <nav className="header">
       <img
@@ -29,6 +31,9 @@ function Header() {
         </div>
         <div className="header__navOption">
           <ShoppingCart />
+       
+  <p className="header__navOptionCartNumber">{cart?.length}</p>
+
           <span>Cart</span>
         </div>
       </div>

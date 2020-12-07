@@ -40,3 +40,17 @@
   align-items: center;
   margin: 0 10px;
 }
+
+
+
+.header__navOptionCartNumber{
+ 
+  position: relative;
+  font-size: 10px;
+  bottom: 13px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 4px;
+  background-color: #F68B1F;
+}
