@@ -8,7 +8,7 @@ function ProductItem({ productName, productPrice, productImage }) {
 
   const addToBasket = () => {
     dispatch({
-      type: "ADD_TO_BASKET",
+      type: "ADD_TO_CART",
       item: {
         productName: productName,
         productPrice: productPrice,

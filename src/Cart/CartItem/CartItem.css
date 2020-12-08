@@ -16,6 +16,12 @@
   margin-top: 0.3rem;
 }
 
+.cart__itemImage{
+    width: 15%;
+    margin-right: 0.3rem;
+    object-fit: contain;
+}
+
 .cart__itemOptions {
   display: flex;
   font-weight: 600;
@@ -35,11 +41,15 @@
 .cart__itemTotal {
   text-align: center;
   font-weight: 600;
-  font-size: 3vmin;
+  font-size: 2.5vmin;
 }
 
 .cart__itemTotal {
   color: #f68b1e;
+}
+
+.material-icons{
+    margin-right: 0.3rem;
 }
 
 td {

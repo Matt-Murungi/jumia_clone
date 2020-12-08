@@ -9,6 +9,12 @@
     margin-bottom: 2rem;
 }
 
+.cart__empty{
+    text-align: center;
+    font-size: 3vmin;
+    color: grey;
+}
+
 .cart__table{
     width: 100%;
     border-radius: 10px;
@@ -24,3 +30,9 @@
 
 
 
+.cart__total{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}

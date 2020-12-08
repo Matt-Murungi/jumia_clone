@@ -27,7 +27,7 @@ function Product() {
           productName={"Hisense Fridge"}
           productPrice={800000}
           productImage={
-            "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/26/18097/1.jpg?4397"
+            "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/96/844/1.jpg?3904"
           }
         />
       </div>
