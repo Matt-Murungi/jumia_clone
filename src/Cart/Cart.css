@@ -1,0 +1,26 @@
+.cart{
+    margin: 3rem 0;
+    padding: 0 1rem;
+    
+}
+
+.cart__title{
+    font-size: 4vmin;
+    margin-bottom: 2rem;
+}
+
+.cart__table{
+    width: 100%;
+    border-radius: 10px;
+    
+    
+}
+
+.cart__tableHeading{
+    text-align: left;
+    color: grey;
+    font-size: 3vmin;
+}
+
+
+

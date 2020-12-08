@@ -13,7 +13,7 @@
 }
 .category__itemIcon{
     width: max-content;
-    font-size: 4rem;
+    font-size: 4vw;
     padding: 1.2rem;
     border-radius: 100%;
     background-color: #F2F2F2;
@@ -22,4 +22,5 @@
 .category__itemLabel{
     margin-top: 0.5rem;
     font-size: smaller;
+    text-align: center;
 }

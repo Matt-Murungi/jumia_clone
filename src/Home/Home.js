@@ -7,7 +7,7 @@ function Home() {
         <div className="home">
         <img 
         src="https://ug.jumia.is/cms/UG_BF_LIVE_Phase_MLP4-01.png" 
-        alt="" 
+        alt="home" 
         className="home__image"/>
         </div>
     )

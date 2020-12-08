@@ -18,10 +18,10 @@ function BlackFridayProduct() {
         </div>
   
       <div className="blackFridayProduct__row">
-      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
-      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
-      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
-      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="Shs.12,000"/>
+      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="UGX 12,000"/>
+      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="UGX 12,000"/>
+      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="UGX 12,000"/>
+      <BlackFridayProductItems productName="CocaCola Bundle of Joy" productPrice="UGX 12,000"/>
   
       </div>
   
