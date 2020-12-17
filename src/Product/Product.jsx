@@ -24,10 +24,24 @@ function Product() {
           }
         />
         <ProductItem
-          productName={"Hisense Fridge"}
-          productPrice={800000}
+          productName={"Custom Waterproof Watch"}
+          productPrice={20000}
           productImage={
             "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/96/844/1.jpg?3904"
+          }
+        />
+          <ProductItem
+          productName={"Generic Men's Leather Jacket"}
+          productPrice={50000}
+          productImage={
+            "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/98/179/1.jpg?5512"
+          }
+        />
+          <ProductItem
+          productName={"Cacoon Woolen Coat"}
+          productPrice={40000}
+          productImage={
+            "https://ug.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/79/02864/1.jpg?4053"
           }
         />
       </div>

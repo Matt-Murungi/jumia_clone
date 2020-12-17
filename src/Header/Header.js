@@ -6,9 +6,10 @@ import Person from "@material-ui/icons/PersonOutline";
 import Help from "@material-ui/icons/HelpOutline"
 import ShoppingCart from "@material-ui/icons/ShoppingCartOutlined"
 import "./Header.css";
+import { auth } from "../firebase";
 
 function Header() {
-  const [{cart}] = useStateValue();
+  const [{cart, user}] = useStateValue();
   return (
     <nav className="header">
       <Link to="/">
@@ -26,7 +27,7 @@ function Header() {
       <div className="header__nav">
         <div className="header__navOption">
           <Person />
-          <span>Login</span>
+          <Link to="/login" className="header__navOption" >{user? user.email: "Login"}</Link>
         </div>
         <div className="header__navOption">
           <Help />

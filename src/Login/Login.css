@@ -1,0 +1,59 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 20rem ;
+    justify-content: center;
+
+
+}
+
+.login__title{
+text-align: center;
+font-weight: 700;
+font-size: 1.5rem;
+color: #F68B1F;
+}
+
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login__textfield{
+    margin-bottom: 2rem !important;
+ 
+    
+ }
+
+.login__textfieldInput{
+   border-color: #F68B1F !important;
+   padding: 1rem 0;
+
+   
+}
+
+
+
+button{
+    padding: 12px;
+    margin: 8px 0 18px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    color:white;
+
+}
+
+.login__button{
+    background-color: #F68B1F;
+}
+
+
+
+.login__buttonFacebook{
+    background-color: #354F88;
+}
